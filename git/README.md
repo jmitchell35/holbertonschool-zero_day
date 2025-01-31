@@ -1,5 +1,4 @@
 # Git
-
 ## Requirements
 
 ### General
@@ -16,10 +15,10 @@
 If `git` is not already installed on your terminal:
 
 ```
-`$ sudo apt-get update
+$ sudo apt-get update
 $ sudo apt-get upgrade
 $ sudo apt-get install git
-`
+
 ```
 
 Note: If you’re already the ‘root’ user in the sandbox (e.g. your username starts with ‘root’), you can omit the ‘sudo’ from the commands above as you already have sufficient user permissions.
@@ -29,12 +28,12 @@ Note: If you’re already the ‘root’ user in the sandbox (e.g. your username
 At the end of this project you should be able to reproduce and understand these command lines:
 
 ```
-`$ git clone 
+$ git clone 
 $ touch test
 $ git add test
 $ git commit -m "Initial commit"
 $ git push origin main
-`
+
 ```
 
 ## Tasks
@@ -52,7 +51,7 @@ You can follow [this tutorial](/rltoken/7jjq1lWDPmYnWsM2EjxvsQ) to create a toke
 
 Once it’s created, you should have a token that looks like this:
 
-![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2022/2/5324a3dea7703623ea16353796ee5dcc82514391.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250131%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250131T144616Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=437567a0df8578613d141339bb4db096f0c260728be657794a59a5a6d2ef157f)
+![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2022/2/5324a3dea7703623ea16353796ee5dcc82514391.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250131%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250131T194337Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c84433ec849c75b045961f7df298c574ea0abda7cf7d6ef23fc93f422b67cb37)
 
 #### Step 2 - Update your profile on the Intranet
 
@@ -60,7 +59,7 @@ Update your Intranet profile by adding your Github username [here](/rltoken/FwTa
 
 If it’s not done **the Checker won’t be able to correct your work**
 
-![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2022/2/0d6755d000841c87ad2bf7e62f648b64e0f6abc1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250131%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250131T144616Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f7bb1cd90bf95bf7372b3fa90fda25f746c5713248d1580aadfd110910259233)
+![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2022/2/0d6755d000841c87ad2bf7e62f648b64e0f6abc1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250131%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250131T194337Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=dc41068574cd0deee9fc2826835b7a4e6edc91f06973c99eb7bc6fbe2d965f0b)
 
 #### Step 3 - Create your first repository
 
@@ -71,13 +70,13 @@ Using the graphic interface on the [github website](/rltoken/-mliVC8UBjdpAGbt2IK
 * Public repo
 * No `README`, `.gitignore`, or license
 
-![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2022/2/129da22e07db4f6ccbd715687d18b5179359ba38.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250131%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250131T144616Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0dd415a0672aabe9f032c01eccdcde741ffe9b198cbbe8bffe988f5e7bb1a324)
+![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2022/2/129da22e07db4f6ccbd715687d18b5179359ba38.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250131%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250131T194337Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8ec353ffa56050fc097d5928b85ac77cfe26d2af33e8dbd71577a20829fcde6c)
 
 #### Step 4 - Open the sandbox
 
-On the intranet, just under the task, click on the button ![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2022/2/007c351c13148e0c4c04528c7aed7cea0982ebb1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250131%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250131T144616Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f002df75ed1bcfe03baa181a0fd01741da62f3898eba318f69cbaa5d163e727e) and `run` to start the machine.
+On the intranet, just under the task, click on the button ![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2022/2/007c351c13148e0c4c04528c7aed7cea0982ebb1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250131%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250131T194337Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0e92025d67f11488451d6f0fb19424896bbd420567f74f13baaed8fd2ab9d03b) and `run` to start the machine.
 
-Once the container is started, click on ![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2022/2/ff8ebf0b6ef71fd3e9d0f03bfd560b7483e45d91.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250131%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250131T144616Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2a6a887c9dfab52bf6254a3c33ff921e4be1a3e45c684e3ef772633a4d357a14) or on ![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2024/2/c3be4d7065015595148b32c6add147abf32d04d7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250131%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250131T144616Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b7006c5ef2b3b70d8fa82bd205f9530b4fcd2044b5ffd372b3920513dcac62eb) (for the new sandboxes) to open a shell where you can start work from.
+Once the container is started, click on ![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2022/2/ff8ebf0b6ef71fd3e9d0f03bfd560b7483e45d91.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250131%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250131T194337Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f89b4959c7467e71f395405b882e9abfa4d180ecb64594eb8cc177793803b51c) or on ![](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2024/2/c3be4d7065015595148b32c6add147abf32d04d7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20250131%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20250131T194337Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8102fa0ac4bed2ec4037b0d3a3796b26e6cca3d7876cbcadde807182a6c0ae9e) (for the new sandboxes) to open a shell where you can start work from.
 
 #### Step 5 - Clone your repository
 
@@ -86,10 +85,10 @@ On the webterm of the sandbox, do the following:
 * Clone your repository
 
 ```
-`root@896cf839cf9a:/# git clone https://{YOUR_PERSONAL_TOKEN}@github.com/{YOUR_USERNAME}/{YOUR_REPO}.git                  
+root@896cf839cf9a:/# git clone https://{YOUR_PERSONAL_TOKEN}@github.com/{YOUR_USERNAME}/{YOUR_REPO}.git                  
 Cloning into '{YOUR_REPO}'...
 warning: You appear to have cloned an empty repository.       
-`
+
 ```
 
 **Replace {YOUR_PERSONAL_TOKEN} with your token from step 1**
@@ -102,23 +101,23 @@ warning: You appear to have cloned an empty repository.
 
 * Navigate to this new directory. 
 ```
-`root@896cf839cf9a:/# cd {YOUR_REPO}/
+root@896cf839cf9a:/# cd {YOUR_REPO}/
 root@896cf839cf9a:/{YOUR_REPO}#
-`
+
 ```
 
 -Create the file `README.md` with the content `My first readme`. 
 ```
-`root@896cf839cf9a:/{YOUR_REPO}# echo 'My first readme' > README.md                                                                 
+root@896cf839cf9a:/{YOUR_REPO}# echo 'My first readme' > README.md                                                                 
 root@896cf839cf9a:/{YOUR_REPO}# cat README.md                                                                                      
 My first readme                                                                                                                       
-`
+
 ```
 
 * Add this new file to git, commit the change with this message “My first commit” and push to the remote server / origin
 
 ```
-`root@896cf839cf9a:/{YOUR_REPO}# git add .
+root@896cf839cf9a:/{YOUR_REPO}# git add .
 root@896cf839cf9a:/{YOUR_REPO}# git commit -m 'My first commit'
 [master (root-commit) 98eef93] My first commit
  1 file changed, 1 insertion(+)
@@ -130,7 +129,7 @@ Writing objects: 100% (3/3), 212 bytes | 212.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0)                                                                                                 
 To https://github.com/{YOUR_USERNAME}/{YOUR_REPO}.git                                                                                       
  * [new branch]      master -> master              
-`
+
 ```
 
 Good job! 
@@ -210,8 +209,8 @@ To illustrate that, please merge the branch `update_script` to `main`: “Cool, 
 **HHHHHHHAAAAAAAA**
 
 ```
-`CONFLICT (content): Merge conflict in bash/best
-`
+CONFLICT (content): Merge conflict in bash/best
+
 ```
 
 As you can see, you have conflicts between two branches on the same file.
@@ -221,4 +220,4 @@ Your goal now is to resolve conflicts by using the version of the branch `update
 At the end, you should have all your work from the branch `update_script` (new file and two updated files) and all latest `main` commits (new files, delete folder, etc.), *without* conflicts.
 
 ### 6. Never push too much
-Create a `.gitignore` file and define a rule to never push `\\\\~` files (generated by Emacs). 
+Create a `.gitignore` file and define a rule to never push `~` files (generated by Emacs). 
